@@ -1,0 +1,66 @@
+{
+  "best_metric": 3.316593885421753,
+  "best_model_checkpoint": "./training/gpt-lora/checkpoint-1878",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 1878,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.8,
+      "learning_rate": 3.668796592119276e-05,
+      "loss": 4.2253,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.0646103896103896,
+      "eval_loss": 3.814634084701538,
+      "eval_runtime": 7.4858,
+      "eval_samples_per_second": 411.446,
+      "eval_steps_per_second": 6.546,
+      "step": 626
+    },
+    {
+      "epoch": 1.6,
+      "learning_rate": 2.3375931842385517e-05,
+      "loss": 3.7193,
+      "step": 1000
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.11428571428571428,
+      "eval_loss": 3.431990146636963,
+      "eval_runtime": 7.7391,
+      "eval_samples_per_second": 397.978,
+      "eval_steps_per_second": 6.331,
+      "step": 1252
+    },
+    {
+      "epoch": 2.4,
+      "learning_rate": 1.0063897763578276e-05,
+      "loss": 3.4358,
+      "step": 1500
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.1383116883116883,
+      "eval_loss": 3.316593885421753,
+      "eval_runtime": 7.9096,
+      "eval_samples_per_second": 389.401,
+      "eval_steps_per_second": 6.195,
+      "step": 1878
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1878,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 614803400063580.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
