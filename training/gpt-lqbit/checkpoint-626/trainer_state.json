@@ -1,0 +1,36 @@
+{
+  "best_metric": 3.213898181915283,
+  "best_model_checkpoint": "./training/gpt-lqbit/checkpoint-626",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 626,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.8,
+      "learning_rate": 3.668796592119276e-05,
+      "loss": 4.1179,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.23733766233766235,
+      "eval_loss": 3.213898181915283,
+      "eval_runtime": 8.4408,
+      "eval_samples_per_second": 364.895,
+      "eval_steps_per_second": 5.805,
+      "step": 626
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1878,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 207075790144944.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
